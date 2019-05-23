@@ -1,0 +1,42 @@
+.create-form {
+    min-width: 150px;
+    width: 75%;
+    align-items: center;
+    justify-content : center;
+}
+
+.field-full-width {
+    width: 100%;
+}
+
+
+.mat-icon {
+    background: purple;
+    color: white;
+}
+
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+
+  .mat-button, .mat-raised-button{
+    background-color:purple;
+    color: white;
+
+} 
+
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
+  .example-card {
+    padding-left: 100px;
+    padding-right: 100px; 
+  }
+  

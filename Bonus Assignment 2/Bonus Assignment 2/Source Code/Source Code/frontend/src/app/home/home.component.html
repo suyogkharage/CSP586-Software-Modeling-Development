@@ -1,0 +1,20 @@
+<mat-card>
+
+  <mat-card class="example-card"> 
+    <img mat-card-image src="../assets/Capture.PNG">
+  </mat-card>
+  <br>
+  <form [formGroup]="createForm" class="create-form" style="padding-left:600px">
+
+    <button type="submit"  (click)="goToFind()" mat-raised-button>
+        Places
+    </button>          
+    &nbsp;&nbsp;&nbsp;
+    <button type="submit" (click)="goToHeatmap()"  mat-raised-button>
+      Divvy HeatMap
+            
+  </button>         
+      
+</form>
+</mat-card>
+

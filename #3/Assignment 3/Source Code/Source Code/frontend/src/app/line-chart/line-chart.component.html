@@ -1,0 +1,22 @@
+<br><br>
+&nbsp;&nbsp;&nbsp;<button mat-raised-button color="primary" (click)="findChartData(1)">
+    Past 1 Hour
+    &nbsp;    
+  </button>&nbsp;&nbsp;
+  <button mat-raised-button color="primary" (click)="findChartData(24)">
+    Past 24 Hour
+    &nbsp;    
+  </button>&nbsp;&nbsp;
+  <button mat-raised-button color="primary" (click)="findChartData(7)">
+    Past 7 Days
+    &nbsp;    
+  </button>
+  <br><br>
+<h2>&nbsp;&nbsp;{{ title }}</h2>
+<svg width="900" height="500"></svg>
+
+&nbsp;&nbsp; <br><br>
+<button mat-raised-button color="primary" (click)="goBack()">
+  Go Back
+  &nbsp;    
+</button>

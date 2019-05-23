@@ -1,0 +1,18 @@
+<br><br>
+&nbsp;&nbsp;&nbsp;<button mat-raised-button color="primary" (click)="findChartData(60)">
+    Past 1 Hour SMA Line Chart
+    &nbsp;    
+  </button>&nbsp;&nbsp;
+  <button mat-raised-button color="primary" (click)="findChartData(1440)">
+    Past 24 Hour SMA Line Chart
+    &nbsp;    
+  </button>&nbsp;&nbsp;
+
+<h2>&nbsp;&nbsp;{{ title }}</h2>
+<svg width="900" height="500"></svg>
+
+&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<button mat-raised-button color="primary" (click)="goBack()">
+  Go Back
+  &nbsp;    
+</button>
